@@ -1,2 +1,3 @@
 # RC-Car-mit-Kamera
-In diesem Repository haben wir die Dokumentation zu einem RC-Car welches wir aufgebaut haben und mit einer Kamera versehen haben.
+Dieses Repository dient der technischen Dokumentation für ein RC-Car mit Videoübertragung. Die Steuerung und Übertragung der Video-
+aufnahmen erfolgt durch einen Raspberry Pi Pico W.
