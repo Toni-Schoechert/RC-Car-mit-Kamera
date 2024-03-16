@@ -30,10 +30,12 @@ Der Raspberry Pi Pico fungiert dabei als Webserver und muss vorher eine Verbindu
 
 ## Bedienung
 Der Raspberry Pi Pico wird über einen Hotspot an ein Wlan-Netzwerk angeschlossen. Die Verbindungsdaten des Hotspots werden im Programmcode des Raspberry Pi Picos hinterlegt.
-Durch Aufruf der IP-Adresse (192.168.183.196) des Picos gelangt man in das Bedieninterface.
+Durch Aufruf der IP-Adresse (192.168.7.196) des Picos gelangt man in das Bedieninterface.
 
 
 ![Bedienoberfläche](https://github.com/Toni-Schoechert/RC-Car-mit-Kamera/blob/main/Bilder/Bedienoberfl%C3%A4che.jpg)
 
 
 
+Mithilfe der 5 Buttons lässt sich das RC-Car steuern. Ein Tippen auf den jeweiligen Button aktiviert den Befehl. 
+Das Auto kann somit nach vorne Fahren, sich nach links oder rechts drehen, Rückwärts fahren oder stoppen.
