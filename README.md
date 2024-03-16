@@ -29,6 +29,8 @@ mit dem hier gezeigten Quellcode möglich ist.
 
 <img src='Bilder/RC_Car_Seite_2.jpeg' width='300'>
 
+<img src='Bilder/RC_Car_vorne.jpeg' width='300'>
+
 
 Die Bilder sollten einen guten Eindruck vermitteln, wie das RC-Car zusammengebaut aussieht.
 
