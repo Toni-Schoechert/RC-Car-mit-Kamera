@@ -27,3 +27,8 @@ Der Code befindet sich im entsprechenden Ordner.
 Die Bedienoberfläche für das RC-Car wurde per HTML erstellt und ist über den Browser abrufbar über die IP-Adresse des
 Raspberry Pi Picos.
 Der Raspberry Pi Pico fungiert dabei als Webserver und muss vorher eine Verbindung zu einem W-Lan Netz aufbauen.
+
+## Bedienung
+Der Raspberry Pi Pico wird über einen Hotspot an ein Wlan-Netzwerk angeschlossen. Die Verbindungsdaten des Hotspots werden im Programmcode des Raspberry Pi Picos hinterlegt.
+Durch Aufruf der [IP-Adresse](192.168.183.196) des Picos gelangt man in das Bedieninterface.
+![Bedienoberfläche](/RC-Car-mit-Kamera/Bilder/Bedienoberfläche.jpg)
