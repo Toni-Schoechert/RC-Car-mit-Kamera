@@ -22,9 +22,10 @@ mit dem hier gezeigten Quellcode möglich ist.
 Im Ordner Bilder sieht man den Beispielaufbau des RC-Cars.
 
 <figure>
-<img src='Bilder/RC_Car_Oben.jpg' width='300'>
- <figcaption>Das RC-Car von Oben</figcaption>
+    <img src='Bilder/RC_Car_Oben.jpg' width='300'>
+    <figcaption>Das RC-Car von Oben</figcaption>
  </figure>
+ 
 Das RC-Car von Unten
 <img src='Bilder/RC_Car_Unten.jpg' width='300'>
 
