@@ -21,7 +21,7 @@ verbunden werden und das linke Rad mit OUT3 und 4. Dies ist wichtig, da nur so d
 mit dem hier gezeigten Quellcode möglich ist.
 Im Ordner Bilder sieht man den Beispielaufbau des RC-Cars
 
-<img src="RC-Car-mit-Kamera/Bilder/Bedienoberfläche.jpg" width="100" height"100">
+<img src="https://github.com/Toni-Schoechert/RC-Car-mit-Kamera/blob/main/Bilder/Bedienoberfl%C3%A4che.jpg" width="100" height"100">
 
 ## Programm
 Die Programmierung erfolgt unter C++, da die benötigten Bibliotheken für die ArduCam nur in C++ verfügbar waren.
