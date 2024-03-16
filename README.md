@@ -16,8 +16,11 @@ Der Aufbau ist simpel. Alle Teile werden mittels Schrauben auf dem Chassis befes
 Die Verbindungen zwischen Raspberry Pi Pico, Motortreiber und Kamera sowie die Verbindung zwischen
 Motor und Motortreiber müssen gelötet werden. Im Ordner Pläne findet sich dazu ein Anschlussplan sowie 
 ein Stromlaufplan für die Verbindung zwischen Raspberry Pi Pico und Kamera/Motortreiber.
+Wichtig zu beachten ist, die entsprechende Montage der Räder. Das Rechte Rad sollte mit den Anschlüssen OUT1 und 2 
+verbunden werden und das Linke Rad mit OUT3 und 4. Dies ist wichtig, da nur so die richtige Fahrtrichtung in Verbindung
+mit dem hier gezeigten Quellcode möglich ist.
 
-##Programm
+## Programm
 Die Programmierung erfolgt unter C++, da die benötigten Bibliotheken für die ArduCam nur in C++ verfügbar waren.
 Der Code befindet sich im entsprechenden Ordner.
 Die Bedienoberfläche für das RC-Car wurde per HTML erstellt und ist über den Browser abrufbar über die IP-Adresse des
