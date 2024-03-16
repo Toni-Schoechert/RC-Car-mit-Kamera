@@ -4,6 +4,6 @@ Wir haben den Code für den Pico mit der Pico SDK C/C++ für Windows erstellt. D
 Wenn Man das video sehen will muss man den Pico über ein USB Kabel an einen PC anschliesen auf dem Python instaliert ist und spziell noch opencv, numpy und pyserial. Und dann müssen sie noch das Python Programm pico_video ausfüren. Wir haben das mit einem Linux Laptop gemacht, bei Windows müsste aber eigentlich nur in `ser = serial.Serial('/dev/ttyACM0', 115200)`
 /dev/ttyACM zu dem entsprechenden COM Port gewechselt werden.
 # Quellen: 
-Die Bibliotheken zum verwenden der Kamera haben wir von [hm01b0-library-for-pico](https://github.com/ArmDeveloperEcosystem/hm01b0-library-for-pico?tab=readme-ov-file).
-Und ein Grundlegendes Format für den Webserver haben wir von [pico-w-webserver-template](https://github.com/LearnEmbeddedSystems/pico-w-webserver-template).
+Die Bibliotheken zum verwenden der Kamera haben wir von [hm01b0-library-for-pico](https://github.com/ArmDeveloperEcosystem/hm01b0-library-for-pico?tab=readme-ov-file) am 10..03.2024.
+Und ein Grundlegendes Format für den Webserver haben wir von [pico-w-webserver-template](https://github.com/LearnEmbeddedSystems/pico-w-webserver-template) am 08.03.2024. Diese haben wir dan zusammen geführt und auf unsere anwendung angepasst. 
 
