@@ -9,8 +9,8 @@
 #include <stdint.h>
 
 // WIFI Credentials - take care if pushing to github!
-const char WIFI_SSID[] = "Toni";
-const char WIFI_PASSWORD[] = "Weiomi123#";
+const char WIFI_SSID[] = "Wifi_Name";
+const char WIFI_PASSWORD[] = "Passwort";
 
 //definition Kamera
 const struct hm01b0_config hm01b0_config = {
