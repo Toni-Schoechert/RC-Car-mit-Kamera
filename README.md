@@ -21,9 +21,10 @@ verbunden werden und das linke Rad mit OUT3 und 4. Dies ist wichtig, da nur so d
 mit dem hier gezeigten Quellcode möglich ist.
 Im Ordner Bilder sieht man den Beispielaufbau des RC-Cars.
 
-Das RC-Car von Oben
+<figure>
 <img src='Bilder/RC_Car_Oben.jpg' width='300'>
-
+ <figcaption>Das RC-Car von Oben</figcaption>
+ </figure>
 Das RC-Car von Unten
 <img src='Bilder/RC_Car_Unten.jpg' width='300'>
 
