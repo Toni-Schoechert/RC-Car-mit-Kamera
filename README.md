@@ -22,7 +22,7 @@ mit dem hier gezeigten Quellcode möglich ist.
 
 
 
-<img src='Bilder/RC_Car_Oben.jpeg' width='200'>
+<img src='Bilder/RC_Car_Oben_an.jpeg' width='200'>
 
 <img src='Bilder/RC_Car_Unten.jpg' width='300'>
 
