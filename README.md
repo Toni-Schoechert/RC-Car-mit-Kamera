@@ -16,9 +16,7 @@ Der Aufbau ist simpel. Alle Teile werden mittels Schrauben auf dem Chassis befes
 Die Verbindungen zwischen Raspberry Pi Pico, Motortreiber und Kamera sowie die Verbindung zwischen
 Motor und Motortreiber müssen gelötet werden. Im Ordner Pläne findet sich dazu ein Anschlussplan sowie
 ein Stromlaufplan für die Verbindung zwischen Raspberry Pi Pico und Kamera/Motortreiber.
-Wichtig zu beachten ist die entsprechende Montage der Räder. Das rechte Rad sollte mit den Anschlüssen OUT1 und 2
-verbunden werden und das linke Rad mit OUT3 und 4. Dies ist wichtig, da nur so die richtige Fahrtrichtung in Verbindung
-mit dem hier gezeigten Quellcode möglich ist.
+Wichtig zu beachten ist die entsprechende Montage der Motoren. Der rechte Motor sollte mit den Anschlüssen OUT1 oben und 2 unten verbunden werden und der linke Motor mit OUT3 oben und 4 unten. Dies ist wichtig, da nur so die richtige Fahrtrichtung in Verbindungmit dem hier gezeigten Quellcode möglich ist.
 
 
 
