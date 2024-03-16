@@ -21,7 +21,10 @@ verbunden werden und das linke Rad mit OUT3 und 4. Dies ist wichtig, da nur so d
 mit dem hier gezeigten Quellcode möglich ist.
 Im Ordner Bilder sieht man den Beispielaufbau des RC-Cars.
 
-<img src='Bilder/Bedienoberfläche.jpg' width='500' >
+<img src='Bilder/RC-Car_oben.jpg' width='500'>
+<img src='Bilder/RC-Car_unten.jpg' width='500'>
+<img src='Bilder/RC-Car_seite1.jpg' width='500'>
+<img src='Bilder/RC-Car_seite2.jpg' width='500'>
 
 ## Programm
 Die Programmierung erfolgt unter C++, da die benötigten Bibliotheken für die ArduCam nur in C++ verfügbar waren.
@@ -35,7 +38,7 @@ Der Raspberry Pi Pico wird über einen Hotspot an ein Wlan-Netzwerk angeschlosse
 Durch Aufruf der IP-Adresse (192.168.7.196) des Picos gelangt man in das Bedieninterface.
 
 
-![Bedienoberfläche](https://github.com/Toni-Schoechert/RC-Car-mit-Kamera/blob/main/Bilder/Bedienoberfl%C3%A4che.jpg)
+<img src='Bilder/Bedienoberfläche.jpg' width='500'>
 
 
 
