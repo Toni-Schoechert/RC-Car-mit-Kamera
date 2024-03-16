@@ -25,21 +25,16 @@ Im Ordner Bilder sieht man den Beispielaufbau des RC-Cars.
 
 <img src='Bilder/RC_Car_Oben.jpg' width='300'>
 Das RC-Car von Oben
-
-
-
+<br>
 <img src='Bilder/RC_Car_Unten.jpg' width='300'>
 Das RC-Car von Unten
-
-
-
+<br>
 <img src='Bilder/RC_Car_Seite1.jpg' width='300'>
 Das RC-Car von der Seite
-
-
-
+<br>
 <img src='Bilder/RC_Car_Seite2.jpg' width='300'>
 Das RC-Car von der Seite
+<br>
 
 Die Bilder sollten einen guten Eindruck vermitteln, wie das RC-Car zusammengebaut aussieht.
 
