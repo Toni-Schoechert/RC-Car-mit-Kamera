@@ -19,6 +19,7 @@ ein Stromlaufplan für die Verbindung zwischen Raspberry Pi Pico und Kamera/Moto
 Wichtig zu beachten ist, die entsprechende Montage der Räder. Das Rechte Rad sollte mit den Anschlüssen OUT1 und 2 
 verbunden werden und das Linke Rad mit OUT3 und 4. Dies ist wichtig, da nur so die richtige Fahrtrichtung in Verbindung
 mit dem hier gezeigten Quellcode möglich ist.
+Im Ordner Bilder sieht man den Beispielaufbau des RC-Cars
 
 ## Programm
 Die Programmierung erfolgt unter C++, da die benötigten Bibliotheken für die ArduCam nur in C++ verfügbar waren.
