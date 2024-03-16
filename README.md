@@ -23,11 +23,10 @@ Im Ordner Bilder sieht man den Beispielaufbau des RC-Cars.
 
 
 
-<img src='Bilder/RC_Car_Oben.jpg' width='300'>
+<img src='Bilder/RC_Car_Oben.jpg' width='200'>
 
 <img src='Bilder/RC_Car_Unten.jpg' width='300'>
 
-<img src='Bilder/RC_Car_Seite1.jpg' width='300'>
 
 <img src='Bilder/RC_Car_Seite2.jpg' width='300'>
 
