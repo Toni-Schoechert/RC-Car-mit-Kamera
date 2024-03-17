@@ -40,13 +40,13 @@ int main() {
 
     //fehler bei der kamera verbindun Led blinkt 2 mal
     if (hm01b0_init(&hm01b0_config) != 0) {
-      /*  cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
         sleep_ms(250);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
         sleep_ms(250);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
         sleep_ms(250);
-        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);*/
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
     }
 
     
