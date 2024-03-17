@@ -1,9 +1,13 @@
-# Pico Programieren
-Wir haben den Code für den Pico mit der Pico SDK C/C++ für Windows erstellt. Dies haben wir über den Windows Installer auf unserem Rechner installiert. Dadurch wurde uns Pico-VS Code installiert, in den man nur den Ordner "RC-Car-Code" oder den Inhalt des Zip-Files laden muss, und den PICO ARM GCC auswählen muss, wenn man "configure" in CMake aufruft. Danach werdet ihr beim ersten Laden des Ordners meistens gefragt. Anschließend wird CMake die nötigen Dateien im Ordner "build" erzeugen, damit ihr in VS Code nur noch auf "build", unten links, drücken müsst. Letztlich müsst ihr die im "Build"-Ordner erstellte UF2-Datei, hier "car.uf2", auf den Pico kopieren. Dafür schließt ihr den Pico an den PC an, während ihr die BOOTSEL-Taste drückt. Nun sollte der Pico den Code ausführen. Falls die Kamera nicht richtig verbunden ist, wird die LED zweimal kurz blinken. Und wenn sich der Pico mit dem WLAN verbunden hat, sollte die LED dauerhaft leuchten. Das einzige, was zu beachten ist, ist, dass man die SSID und das Passwort auf das eigene WLAN ändern muss.<br>
-# Video auslesen
-Wenn Man das video sehen will muss man den Pico über ein USB Kabel an einen PC anschliesen auf dem Python instaliert ist und spziell noch opencv, numpy und pyserial. Und dann müssen sie noch das Python Programm pico_video ausfüren. Wir haben das mit einem Linux Laptop gemacht, bei Windows müsste aber eigentlich nur in `ser = serial.Serial('/dev/ttyACM0', 115200)`
-/dev/ttyACMO zu dem entsprechenden COM Port gewechselt werden.
-# Quellen: 
-Die Bibliotheken zum verwenden der Kamera haben wir von [hm01b0-library-for-pico](https://github.com/ArmDeveloperEcosystem/hm01b0-library-for-pico?tab=readme-ov-file) am 10..03.2024.
-Und ein Grundlegendes Format für den Webserver haben wir von [pico-w-webserver-template](https://github.com/LearnEmbeddedSystems/pico-w-webserver-template) am 08.03.2024. Diese haben wir dan zusammen geführt und auf unsere anwendung angepasst. 
+#Pico Programieren
+Als Entwicklungsumgebung für den Raspberry Pi Pico diente die Pico SDk C/C++. Die Installation erfolgt mittels eigenem Installer. Durch die Installation steht dann Pico-VS Code zur Verfügung. Per Pico-VS Code kann dann der entsprechende Ordner mit dem Code geladen werden. In der Konfiguration muss nun der PICO ARM GCC ausgewählt werden. Dies passiert automatisch bei laden der Dateien oder manuell unter "configure" in CMake. Anschließend erstellt CMake die nötigen Dateien im Ordner build. Zum Schluss muss die im "Build"-Ordner erstellte UF2-Datei, hier "car.uf2", auf den Pico kopiert werden. Um das kopieren der Datei möglich zu machen, muss der Pico per USB an den Computer angeschlossen werden während die BOOTSEL-Taste gedrückt wird.
+Der Pico sollte nun den Code ausführen. Hat der Pico sich mit dem W-Lan verbunden leuchtet die LED dauerhaft. Im Fall, dass die Kamera nicht richtig verbunden ist, wird die LED zweimal kurz blinken.
+Zu beachten ist, dass die SSID und das Passwort an das eigene W-Lan angepasst werden muss.
 
+#Video auslesen
+Das Auslesen des Videos erfolgt indem der Raspberry Pi Pico per USB mit einem PC verbunden wird. Der PC sollte Python, und speziell noch opencv, numpy und pyserial installiert haben. Zum Anzeigen des Videos muss 
+das in Python geschriebene Programm pico_video ausgeführt werden.
+Unter Windows muss in `ser = serial.Serial('/dev/ttyACM0', 115200)` /dev/ttyACMO zu dem entsprechenden COM Port gewechselt werden.
+
+#Quellen
+Für die Kamera wurde folgende Bibliothek verwendet: [hm01b0-library-for-pico](https://github.com/ArmDeveloperEcosystem/hm01b0-library-for-pico?tab=readme-ov-file) (Stand 10.03.2024)
+Für den entsprechenden Webserver diente [pico-w-webserver-template](https://github.com/LearnEmbeddedSystems/pico-w-webserver-template) (Stand 08.03.2024) als Vorlage.
